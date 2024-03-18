@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.to-do-section{
+    text-align: center;
+    margin-top: 125px;
+}
+
+.container{
+    display: inline-block;
+    height: 1000px;
+}
+
+.to-do-section h1{
+    color: darkblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 25px;
+}
+
+.to-do-section input{
+    display: block;
+    border: 1px solid gray;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    size: 110%;
+}
+
+.to-do-section #add{
+    height: 30px;
+    background: blue;
+    border: 1px solid blue;
+    color: white;
+    border: 0;
+    transition: background-color 0.5s ease;
+    margin-top: 12px;
+} 
+
+.to-do-section #add:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    transition-timing-function: ease; 
+}
+
+
+.to-do-section ul{
+    padding: 0;
+    border: 1px solid black;
+}
+
+.to-do-section ul li{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    border: 1px solid black;
+    padding-left: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.to-do-section ul li button{
+    background-color: rgb(253, 72, 72);
+    border: 0;
+    height: 35px;
+    text-decoration: none;
+}
